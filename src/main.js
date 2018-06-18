@@ -12,7 +12,8 @@ app.$mount()
 export default {
     config: {
         "pages": [
-            '^pages/home/main',
+            '^pages/mine/main',
+            // '^pages/home/main',
             // 'pages/activity/main',
             // 'pages/discounts/main',
             // 'pages/mine/main'

@@ -25,6 +25,13 @@ export function showSuccess(text) {
     })
 }
 
+export function showModal(title, text) {
+    wx.showModal({
+        title: title,
+        content: text
+    })
+}
+
 export function showLoading(text) {
     wx.showToast({
         title: text,
